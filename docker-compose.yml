@@ -1,8 +1,8 @@
 version: '3'
+
 services:
   proxy:
-      build: .
-      hostname: proxyinverso
-      ports:
-        - '80:80' 
-      
+    build: .
+    hostname: proxyInverso
+    ports:
+      - '80:80'
